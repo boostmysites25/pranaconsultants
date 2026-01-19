@@ -1,7 +1,6 @@
 import React from "react";
 import { useKeenSlider } from "keen-slider/react";
-import profileImg1 from "../../assets/images/profileimg-1.png";
-import profileImg2 from "../../assets/images/profileimg-2.jpg";
+
 import {
   IoArrowBackCircleOutline,
   IoArrowForwardCircleOutline,

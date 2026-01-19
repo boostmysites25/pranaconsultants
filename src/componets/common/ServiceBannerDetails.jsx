@@ -3,8 +3,6 @@ import { IoIosArrowForward } from "react-icons/io";
 import { Link, useLocation } from "react-router-dom";
 import { allServices } from "../../constant";
 import ReactPlayer from "react-player";
-import servicepagebanner from "../../assets/videos/servicepagebanner.mp4";
-import servicepagebannerimage from "../../assets/images/servicesbanner.jpg";
 import homepagebanner from "../../assets/videos/home-banner.mp4";
 
 const ServiceDetailsBanner = () => {
