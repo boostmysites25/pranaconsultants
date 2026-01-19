@@ -122,7 +122,7 @@ export const LandingPage = ({ page }) => {
                 Forge Immersive Mobile Frontiers
               </h1>
             )}
-            <p className="text-white desc font-medium">
+            <p className="!text-white desc font-medium">
               We architect next-generation IT solutions tailored to the sophisticated demands of the modern enterprise.
             </p>
             <ScrollLink

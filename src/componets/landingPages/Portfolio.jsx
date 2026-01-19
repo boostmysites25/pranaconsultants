@@ -72,29 +72,33 @@ const Portfolio = ({ page }) => {
           <p className="gradient-text uppercase gradient-rounded-text-box">
             Success Stories
           </p>
-          <h2 className="heading text-center my-16">Featured Case Studies</h2>
+          <h2 className="heading-2 text-center my-16">Featured Case Studies</h2>
           <div ref={sliderRef} className="keen-slider">
             {portfolio.map((obj) => (
               <div
                 key={obj.title}
-                className="keen-slider__slide border-4 border-primary/40 rounded-xl bg-custom-gradient "
-              // data-aos="fade-up"
+                className="keen-slider__slide h-auto p-2"
               >
-                {/* <div
-                  className={`  lg:max-h-[316px]  2xl:max-h-[467px] 2xl:min-h-[467px]
-                  w-full overflow-hidden `}
-                > */}
-                {/* ${obj.title === "House of Deliverance" && `2xl:min-h-[480px]`} */}
-                <img
-                  src={obj.img}
-                  alt={obj.title}
-                  className="rounded-t-xl hover:scale-105 transition-all duration-300 lg:max-h-[316px] w-full  2xl:max-h-[467px] object-cover"
-                />
-                {/* ${obj.title === "House of Deliverance" && `2xl:min-h-[480px]`} */}
-                {/* </div> */}
-                <div className="px-3 mt-3 pb-5 max-h-[96px]">
-                  <h4 className="font-semibold text-xl">{obj.title}</h4>
-                  <p className="desc">{obj.description}</p>
+                <div className="group h-full bg-white rounded-[2rem] overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 border border-gray-100 flex flex-col relative">
+                  <div className="relative h-[250px] lg:h-[300px] overflow-hidden shrink-0">
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10" />
+                    <img
+                      src={obj.img}
+                      alt={obj.title}
+                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                    />
+                  </div>
+                  <div className="p-8 flex flex-col flex-grow relative bg-white">
+                    <h4 className="font-raleway font-bold text-2xl mb-3 text-gray-900 group-hover:text-primary transition-colors duration-300">
+                      {obj.title}
+                    </h4>
+                    <p className="font-inter text-gray-600 leading-relaxed text-sm line-clamp-4">
+                      {obj.description}
+                    </p>
+                    <div className="pt-6 mt-auto">
+                      <div className="w-12 h-1 bg-primary/20 rounded-full group-hover:bg-primary group-hover:w-20 transition-all duration-300" />
+                    </div>
+                  </div>
                 </div>
               </div>
             ))}
