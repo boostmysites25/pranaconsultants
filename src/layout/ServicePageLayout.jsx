@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef } from "react";
 import { Link, Outlet, useLocation } from "react-router-dom";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { FaPhoneAlt } from "react-icons/fa";
@@ -12,7 +12,6 @@ import GetInTouch from "../componets/website/GetInTouch";
 const ServicePageLayout = () => {
   const { pathname } = useLocation();
   const wrapperRef = useRef(null);
-  const [isFirstVisit, setIsFirstVisit] = useState(true);
   const prevPath = useRef(pathname); // To store the previous path
 
   useEffect(() => {

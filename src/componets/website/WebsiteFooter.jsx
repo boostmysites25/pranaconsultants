@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 
 const WebsiteFooter = () => {
   return (
-    <div className="py-16 bg-footerbackgrouncolor border-t border-white/5">
+    <div className="py-16 bg-[#3d0000] border-t border-white/5">
       <div className="wrapper text-white">
         <div className="flex md:flex-row flex-col justify-between gap-12 lg:gap-24">
           <div className="flex flex-col items-start gap-6 max-w-sm">
             <img src={logoImg} className="h-[3.5rem] invert opacity-90" alt="" />
-            <p className="desc text-gray-400 text-sm leading-relaxed text-start">
+            <p className="desc !text-gray-200 !text-sm leading-relaxed text-start">
               We have established ourselves as the premier partner for organizations
               seeking digital transformation and enhanced operational efficiency.
             </p>

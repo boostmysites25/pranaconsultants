@@ -8,10 +8,8 @@ import React, { useState } from "react";
 // import section5Img7 from "../../assets/images/section-5-img-7.png";
 import Contact from "../../componets/landingPages/Contact";
 import {
-  appDevBanner,
   appLandingAbout,
   companyDetails,
-  webDevBanner,
   webLandingAbout,
 } from "../../constant";
 import { Link as ScrollLink } from "react-scroll";

@@ -6,12 +6,12 @@ import { Link } from "react-router-dom";
 
 const LandingFooter = () => {
   return (
-    <div className="py-14 bg-footerbackgrouncolor">
+    <div className="py-14 bg-[#3d0000]">
       <div className="wrapper text-white">
         <div className="flex md:flex-row flex-col justify-between gap-10">
           <div className="flex flex-col items-center">
             <img src={logoImg} className="h-[4rem] invert" alt="" />
-            <p className="desc md:max-w-[15rem] text-sm text-center mt-5 text-white">
+            <p className="desc !text-gray-200 !text-sm leading-relaxed text-start">
               We have established ourselves as the premier partner for organizations
               seeking digital transformation and enhanced operational efficiency.
             </p>

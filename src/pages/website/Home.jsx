@@ -6,7 +6,7 @@ import WhyChooseUs from "../../componets/common/WhyChooseUs";
 import ReactPlayer from "react-player";
 import { homeBannerVideo } from "../../constant";
 import OurServices from "../../componets/website/OurServices";
-import EndlessOpportunitiesSection from "../../componets/common/EndlessOpportunitiesSection";
+
 import UnlockEfficiency from "../../componets/common/UnlockEfficiency";
 import Testimonials from "../../componets/common/Testimonials";
 import Faqs from "../../componets/common/Faqs";

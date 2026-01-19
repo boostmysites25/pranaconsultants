@@ -1,11 +1,7 @@
 import React from "react";
 import {
   aboutUsBanner,
-  aboutUsGridImg1,
-  aboutUsGridImg2,
-  aboutUsGridImg3,
-  aboutUsGridImg4,
-  aboutUsGridImg5,
+
   aboutusintroone,
   aboutusintrotwo,
   aboutUsItems,
@@ -17,8 +13,7 @@ import Testimonials from "../../componets/common/Testimonials";
 import { Link } from "react-router-dom";
 import { IoIosArrowForward } from "react-icons/io";
 import Credibility from "../../componets/common/Credibility";
-import ReactPlayer from "react-player";
-import servicepagebanner from "../../assets/videos/servicepagebanner.mp4";
+
 const AboutUs = () => {
   return (
     <>
