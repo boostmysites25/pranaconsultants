@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { allServices } from "../../constant";
-import { Link } from "react-router-dom";
 import { PiCaretDoubleRightBold } from "react-icons/pi";
 import Drawer from "react-modern-drawer";
 import { IoMdClose } from "react-icons/io";

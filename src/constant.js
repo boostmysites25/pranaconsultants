@@ -46,7 +46,6 @@ import { GoFileMedia, GoGraph } from "react-icons/go";
 import { SlBadge } from "react-icons/sl";
 import {
   MdOutlineDashboardCustomize,
-  MdOutlineDeveloperMode,
 } from "react-icons/md";
 import {
   GiArtificialIntelligence,
@@ -55,9 +54,9 @@ import {
 } from "react-icons/gi";
 import { HiChatBubbleBottomCenterText } from "react-icons/hi2";
 import { BsFillClipboard2DataFill } from "react-icons/bs";
-import { FaAppStoreIos, FaGamepad } from "react-icons/fa";
-import { SiFlutter, SiHiveBlockchain } from "react-icons/si";
-import { IoLogoAndroid, IoMdCloudDone } from "react-icons/io";
+import { FaAppStoreIos } from "react-icons/fa";
+import { SiFlutter } from "react-icons/si";
+import { IoLogoAndroid } from "react-icons/io";
 import { CgWebsite } from "react-icons/cg";
 import { TfiLayoutMediaRightAlt } from "react-icons/tfi";
 
