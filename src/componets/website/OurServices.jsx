@@ -109,7 +109,7 @@ const OurServices = ({ length }) => {
           Next-Generation Intelligence, Engineered for Reliability
         </h2>
         <p data-aos="fade-up" className="desc max-w-[50rem]">
-          Prana Consultants harnesses the transformative potential of artificial intelligence
+          PRANA CONSULTANTS harnesses the transformative potential of artificial intelligence
           to build robust technology ecosystems. We align our AI-driven insights with your
           strategic goals, enabling data-informed decision making and sustainable operational growth.
         </p>
@@ -190,7 +190,7 @@ const OurServices = ({ length }) => {
         <div className="mb-3 flex items-center justify-end pr-[.7rem] py-[.4rem]">
           <button
             onClick={() => setIsOpen(false)}
-            className="text-white text-[2.2rem]"
+            className="text-black text-[2.2rem]"
           >
             <IoMdClose />
           </button>

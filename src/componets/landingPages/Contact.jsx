@@ -29,7 +29,7 @@ const Contact = () => {
     var payload = {
       to: companyDetails.email,
       // to: "remeesreme4u@gmail.com",
-      subject: "You have a new message from Prana Consultants",
+      subject: "You have a new message from PRANA CONSULTANTS",
       body: emailBody,
     };
 
@@ -63,7 +63,7 @@ const Contact = () => {
             <h2 className="text-4xl md:text-5xl font-bold font-raleway text-gray-900 leading-tight">Initiate Your Transformation</h2>
             <p className="text-lg text-gray-600 font-inter leading-relaxed">
               Connect with
-              <span className="font-bold text-gray-900"> Prana Consultants </span> to unlock your digital potential. Together, we will engineer solutions that align with your strategic vision, elevating your business to unprecedented heights.
+              <span className="font-bold text-gray-900"> PRANA CONSULTANTS </span> to unlock your digital potential. Together, we will engineer solutions that align with your strategic vision, elevating your business to unprecedented heights.
             </p>
             <div className="rounded-2xl overflow-hidden shadow-2xl mt-4 max-h-[400px]">
               <img

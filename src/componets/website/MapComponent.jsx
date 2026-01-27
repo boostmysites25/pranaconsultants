@@ -20,8 +20,8 @@ L.Marker.prototype.options.icon = DefaultIcon;
 
 const MapComponent = () => {
   // Use useMemo to memoize the location array
-  // 12.959211956417517, 77.64690870405198;
-  const location = useMemo(() => [12.959211956417517, 77.64690870405198], []);
+  // 15.270906, 73.975234
+  const location = useMemo(() => [15.270906, 73.975234], []);
 
   const mapRef = useRef(); // Reference to the map
 
@@ -40,14 +40,14 @@ const MapComponent = () => {
       whenCreated={(mapInstance) => (mapRef.current = mapInstance)} // Save the map instance to ref
       scrollWheelZoom={false} // Disable zooming with the scroll wheel
       doubleClickZoom={false} // Disable zooming by double-clicking
-      //   dragging={false} // Disable dragging the map
+    //   dragging={false} // Disable dragging the map
     >
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        attribution="© OpenStreetMap contributors"
+        attribution=""
       />
       <Marker position={location}>
-        <Popup>Your location</Popup>
+        <Popup>SHOP NO. BG-1,SUPREME PARK B,BEHIND POWER HOUSE,AQUEM- MARGAO,GOA</Popup>
       </Marker>
     </MapContainer>
   );

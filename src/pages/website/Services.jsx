@@ -12,7 +12,7 @@ const Services = () => {
       <Banner page="Services" />
       <ServiceItems />
       {/* <OurServices /> */}
-      <CommonProject />
+      {/* <CommonProject /> */}
       <UnlockEfficiency />
       <Testimonials />
     </>

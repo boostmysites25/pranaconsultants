@@ -62,7 +62,7 @@ const AboutUs = () => {
                 Pioneering Innovation through Intelligent Technologies
               </h1>
               <p className="text-lg leading-relaxed text-gray-600 font-inter">
-                Prana Consultants specializes in engineering transformative IT solutions powered by sophisticated artificial intelligence.
+                PRANA CONSULTANTS specializes in engineering transformative IT solutions powered by sophisticated artificial intelligence.
                 Our expertise lies in decoding complex challenges and delivering tailored, AI-centric services that ensure businesses thrive in a technology-first era.
                 With a dedicated team of elite developers, data scientists, and strategists, we are redefining the trajectory of IT and unlocking the true potential of intelligent systems.
               </p>
@@ -121,7 +121,7 @@ const AboutUs = () => {
         <UnlockEfficiency />
         {/* <div className="wrapper mt-[5rem]">
           <h2 data-aos="fade-up" className="heading-2">
-            Why Choose Prana Consultants?
+            Why Choose PRANA CONSULTANTS?
           </h2>
           <ul className="mt-[2rem] flex flex-col gap-3 list-disc list-outside text-start">
             {whyChooseUsContent.map((item) => (

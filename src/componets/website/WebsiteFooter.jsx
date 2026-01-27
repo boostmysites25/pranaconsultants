@@ -60,7 +60,7 @@ const WebsiteFooter = () => {
         </div>
         <div className="pt-4 mt-7 border-t text-gray-500 border-primary w-full">
           <div className="flex justify-between items-center gap-5 w-full flex-col md:flex-row">
-            <p className="text-gray-500 text-sm">© {new Date().getFullYear()} Prana Consultants. All rights reserved.</p>
+            <p className="text-gray-500 text-sm">© {new Date().getFullYear()} PRANA CONSULTANTS. All rights reserved.</p>
             <div className="flex gap-4 items-center">
               {[BsFacebook, BsTwitter, BsLinkedin, BsYoutube].map((Icon, idx) => (
                 <Link key={idx} className="group p-2 rounded-full bg-white/5 hover:bg-primary/20 transition-all duration-300">

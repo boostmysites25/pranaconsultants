@@ -111,7 +111,7 @@ export const companyDetails = {
   phone: "+91-9834082924",
   whatsapp: "919834082924",
   whatsappbox: "919834082924",
-  email: "abc@xya.com",
+  email: "pc.pranaconsultants@gmail.com",
   address: "SHOP NO. BG-1, SUPREME PARK B, BEHIND POWER HOUSE, AQUEM-MARGAO",
 };
 
@@ -142,33 +142,33 @@ export const routes = [
 export const faqs = [
   {
     id: 1,
-    question: "How do we begin the collaboration?",
+    question: "How do we identify the right AI strategy?",
     answer:
-      "Initiating a partnership is straightforward. Schedule a complimentary strategy session with us, and we will map out a tailored roadmap to transform your innovative concepts into market-ready AI solutions.",
+      "We begin with a data readiness assessment. Our experts analyze your existing infrastructure to map out high-impact AI opportunities, ensuring your investment yields measurable operational improvements.",
   },
   {
     id: 2,
-    question: "Is technical expertise required on my end?",
+    question: "Is my data secure with your AI models?",
     answer:
-      "Not at all. We bridge the gap between business vision and technical execution. Our dedicated team of engineers will manage the complex development while you steer the strategic direction of your venture.",
+      "Absolutely. We adhere to privacy-by-design principles. All our machine learning pipelines are encrypted, and we can deploy models on-premise or in your private cloud to ensure your data never leaves your control.",
   },
   {
     id: 3,
-    question: "What is the typical development timeline?",
+    question: "What is the timeline for an AI prototype?",
     answer:
-      "Timelines depend on project complexity. Generally, we aim to deliver a robust Minimum Viable Product (MVP) within 3 to 6 months, ensuring a swift entry into the market without compromising quality.",
+      "Speed to value is key. We typically deliver a proof-of-concept (POC) within 4 to 8 weeks, allowing you to validate the model's performance on your real-world data before scaling up.",
   },
   {
     id: 4,
-    question: "How is the feasibility of my idea assessed?",
+    question: "Can you integrate AI with our legacy systems?",
     answer:
-      "We conduct a thorough feasibility analysis during our initial consultation. We assess technical viability, market demand, and ROI potential to provide honest, actionable feedback on your concept.",
+      "Yes. Our specialize in 'AI bridging'. We build custom API layers that allow modern predictive models to communicate seamlessly with your older ERP or CRM systems without requiring a full overhaul.",
   },
   {
     id: 5,
-    question: "Which specific AI technologies do you specialize in?",
+    question: "What specific neural networks do you use?",
     answer:
-      "Our expertise spans the entire AI spectrum, including Deep Learning, Natural Language Understanding (NLU), Computer Vision, and Predictive Analytics, ensuring we can build the exact solution your business requires.",
+      "We select the architecture based on the problem. We utilize Convolutional Neural Networks (CNNs) for vision, Transformers (like BERT/GPT) for NLP, and Recurrent Neural Networks (RNNs) for time-series forecasting.",
   },
 ];
 
@@ -245,21 +245,11 @@ export const appDevelopmentServices = [
   },
 ];
 
-// all services
+// all services - Filtered for AI Services only
 export const allServices = [
-  {
-    id: 1,
-    img: <MdOutlineDeveloperMode className="w-6 h-6" />,
-    link: "/services/web-app-development",
-    title: "Web & Mobile Engineering",
-    desc: "Establish a dominant digital footprint with our end-to-end engineering services. We architect scalable mobile and web applications that serve as the backbone of your digital strategy, prioritized for performance and user engagement.",
-    detailContent:
-      "In today's digital-first world, your application is often the primary touchpoint for your customers. We go beyond basic coding to engineer robust digital ecosystems. Our Web & Mobile Engineering service encompasses the entire product lifecycle—from ideation and prototyping to deployment and scaling. We leverage modern frameworks like React, React Native, and Node.js to build responsive, lightning-fast applications. But we don't stop at functionality; we infuse our apps with AI-driven features such as personalized dashboards and intelligent search to keep your users engaged. Our agile methodology ensures transparency and adaptability, allowing us to pivot as market needs evolve. Partner with us to build digital assets that are secure, scalable, and ready to propel your business forward.",
-  },
   {
     id: 2,
     img: <GiArtificialIntelligence className="w-6 h-6" />,
-    link: "/services/ai-development",
     title: "Custom AI Architectures",
     desc: "Harness the transformative power of Artificial Intelligence. We design and deploy custom AI models that automate complex tasks, predict market trends, and uncover hidden value within your data.",
     detailContent:
@@ -268,7 +258,6 @@ export const allServices = [
   {
     id: 3,
     img: <HiChatBubbleBottomCenterText className="w-6 h-6" />,
-    link: "/services/chatbot-development",
     title: "Intelligent Conversational Agents",
     desc: "Redefine customer support with next-gen chatbots. Our NLP-driven agents provide instant, accurate responses 24/7, resolving inquiries and guiding users with a human-like touch.",
     detailContent:
@@ -277,52 +266,22 @@ export const allServices = [
   {
     id: 4,
     img: <BsFillClipboard2DataFill className="w-6 h-6" />,
-    link: "/services/data-analytics",
     title: "Strategic Data Intelligence",
     desc: "Move from raw data to revenue-generating insights. Our analytics solutions aggregate, visualize, and interpret your business data, empowering you to make decisions with absolute confidence.",
     detailContent:
       "Data is abundant, but insight is rare. Our Strategic Data Intelligence service bridges that gap. We implement comprehensive data pipelines that collect information from siloed sources, cleaning and structuring it for analysis. Using advanced BI tools and custom dashboards, we visualize real-time performance metrics that matter most to your bottom line. Beyond descriptive analytics, we employ predictive models to forecast future trends, helping you play offense rather than defense. Whether you need to optimize pricing strategies, identify churn risks, or streamline operations, our data solutions provide the empirical evidence you need to act specifically and effectively.",
   },
   {
-    id: 5,
-    img: <FaGamepad className="w-6 h-6" />,
-    link: "/services/game-development",
-    title: "Immersive Game Engineering",
-    desc: "Create captivating virtual worlds. We combine creative artistry with technical prowess to develop cross-platform games that offer deep engagement and high retention rates through AI-enhanced gameplay.",
-    detailContent:
-      "Gaming is the ultimate test of user engagement. Our Immersive Game Engineering service blends high-fidelity graphics with fluid mechanics to create unforgettable player experiences. We specialize in Unity and Unreal Engine development, targeting mobile, PC, and console platforms. What sets us apart is our integration of AI into game design—creating smarter NPCs, adaptive difficulty curves, and procedural content generation that keeps the gameplay fresh. We also assist with monetization strategies, including in-app purchases and ad integration, ensuring your creative vision is also a commercial success. From concept art to finalQA, we bring your game world to life.",
-  },
-  {
-    id: 6,
-    img: <SiHiveBlockchain className="w-6 h-6" />,
-    link: "/services/blockchain-development",
-    title: "Decentralized Ledger Solutions",
-    desc: "Trust is the new currency. We build secure, transparent blockchain applications, including smart contracts and dApps, that eliminate intermediaries and enhance the integrity of your digital transactions.",
-    detailContent:
-      "Blockchain is redefining the architecture of trust. Our Decentralized Ledger Solutions help you navigate this complex landscape. We develop secure Smart Contracts that automate agreements with immutable code, ensuring transparency and reducing legal overhead. Our expertise extends to building decentralized applications (dApps), private permissioned blockchains for enterprise supply chains, and tokenization platforms for digital assets. We prioritize security audits and gas optimization to ensure your blockchain solutions are not only safe but also economically viable. Whether you are disrupting finance with DeFi or ensuring provenance in logistics, we provide the technical foundation for decentralized innovation.",
-  },
-  {
     id: 7,
     img: <GiVendingMachine className="w-6 h-6" />,
-    link: "/services/machine-learning",
     title: "Advanced Machine Learning",
     desc: "Automate the inexplicable. Our ML engineers build algorithms that learn from your historical data to solve non-linear problems, from fraud detection to demand forecasting.",
     detailContent:
       "Machine Learning allows systems to improve without explicit programming. Our Advanced ML service is focused on solving problems that are too complex for traditional rule-based software. We handle the entire ML pipeline: data labeling, feature engineering, model training, and deployment. We build recommendation systems that boost sales, computer vision models for quality control in manufacturing, and anomaly detection systems for cybersecurity. We utilize the latest techniques in Deep Learning and Reinforcement Learning to ensure your models achieve state-of-the-art accuracy. By continuously retraining on new data, our solutions adapt to changing environments, keeping your business resilient and efficient.",
   },
   {
-    id: 8,
-    img: <IoMdCloudDone className="w-6 h-6" />,
-    link: "/services/cloud-computing",
-    title: "Cloud Infrastructure & DevOps",
-    desc: "Scale indefinitely with a cloud-native approach. We design resilient, auto-scaling cloud architectures on AWS and Azure, ensuring your applications are always available and cost-optimized.",
-    detailContent:
-      "The cloud is the engine of modern agility. Our Cloud Infrastructure & DevOps service ensures you harness its full potential. We move beyond simple 'lift and shift' migrations to design cloud-native architectures that utilize microservices, serverless computing, and containerization (Docker/Kubernetes). This approach maximizes scalability and fault tolerance. We also implement CI/CD pipelines to automate your software delivery process, enabling you to release features faster and with fewer bugs. Our focus on FinOps ensures you only pay for the resources you use, optimizing your cloud spend without compromising on performance or security.",
-  },
-  {
     id: 9,
     img: <GiRobotLeg className="w-6 h-6" />,
-    link: "/services/rpa",
     title: "Robotic Process Automation",
     desc: "Eliminate the mundane. We deploy intelligent software bots to handle repetitive, rule-based tasks across your legacy systems, drastically reducing error rates and operational costs.",
     detailContent:
@@ -334,28 +293,28 @@ export const allServices = [
 export const whyChooseUsContent = [
   {
     img: <BiBrain className="w-6 h-6" />,
-    title: "Visionary Strategy",
-    desc: "We don't just build; we strategize. We align every technological implementation with your long-term business goals to ensure sustainable growth.",
+    title: "Cognitive Strategy",
+    desc: "We don't just write code; we architect intelligence. We align deep learning capabilities with your business KPIs to unlock new revenue streams.",
   },
   {
     img: <BiRocket className="w-6 h-6" />,
-    title: "Future-Proof Tech",
-    desc: "We stay ahead of the curve so you don't have to. Our solutions utilize the latest stable technologies to ensure longevity and adaptability.",
+    title: "Predictive Power",
+    desc: "Move from reactive to proactive. Our predictive models allow you to anticipate market shifts and customer needs before they happen.",
   },
   {
     img: <BiBulb className="w-6 h-6" />,
-    title: "Creative Problem Solving",
-    desc: "We thrive on complexity. Our team approaches challenges with lateral thinking to find innovative solutions where others see dead ends.",
+    title: "Algorithm Agnostic",
+    desc: "We pick the best model for the job. Whether it's Random Forests or Deep Neural Networks, we focus on accuracy and efficiency over hype.",
   },
   {
     img: <GoGraph className="w-6 h-6" />,
-    title: "Measurable Impact",
-    desc: "We focus on ROI. We provide clear metrics and analytics so you can see exactly how our solutions are improving your bottom line.",
+    title: "Data-Driven ROI",
+    desc: "We quantify the intangible. Our analytics dashboards provide clear, real-time visibility into how AI is optimizing your bottom line.",
   },
   {
     img: <SlBadge className="w-6 h-6" />,
-    title: "Uncompromising Quality",
-    desc: "Excellence is our standard. From clean code to pixel-perfect design, we maintain rigorous quality assurance protocols in every project.",
+    title: "Ethical AI",
+    desc: "Trust is paramount. We build transparent, bias-aware systems that ensure your AI operates fairly and within regulatory compliance.",
   },
 ];
 
@@ -364,71 +323,71 @@ export const reviews = [
     id: 1,
     profileImg: profileImg2,
     name: "Vikram S.",
-    role: "Director at OmniStream",
-    desc: "“Prana Consultants didn't just build an app; they built a business engine for us. Their strategic input on the user journey was invaluable. The final product is robust, beautiful, and strictly aligned with our operational needs.”",
+    role: "Director of AI, OmniStream",
+    desc: "“PRANA CONSULTANTS didn't just build a model; they built a prediction engine. Their forecasting algorithms reduced our inventory waste by 30%. The accuracy of their neural networks is simply world-class.”",
   },
   {
     id: 2,
     profileImg: profileImg1,
     name: "Sarah Jenkins",
-    role: "CTO of MedTech Aligned",
-    desc: "“The expertise they brought to our data infrastructure project was top-tier. They automated our entire reporting workflow, saving us hundreds of man-hours monthly. A truly professional and capable team.”",
+    role: "Head of Data, MedTech Aligned",
+    desc: "“The computer vision system they deployed for our quality control is faster and more accurate than human inspectors. They successfully automated a critical bottleneck in our manufacturing line.”",
   },
   {
     id: 3,
     profileImg: profileImg2,
     name: "Rahul M.",
-    role: "Founder, QuickServe",
-    desc: "“We needed a support bot that actually worked, and they delivered. The natural language understanding is impressive—our customers rarely feel the need to escalate to a human agent anymore. Highly recommended.”",
+    role: "Founder, QuickServe AI",
+    desc: "“We needed a chatbot that could handle complex context, not just FAQs. Their NLP engine provides responses so natural that our customers often can't tell they are talking to an AI.”",
   },
   {
     id: 4,
     profileImg: profileImg1,
     name: "Elena R.",
-    role: "VP of Marketing, TrendSetters",
-    desc: "“Their data analytics overhaul gave us clarity involving our customer segments that we never had before. We're now making marketing decisions based on hard data rather than gut feeling, and the results speak for themselves.”",
+    role: "VP of Analytics, TrendSetters",
+    desc: "“Their data engineers turned our messy data swamp into a clean, actionable data lake. We are now training models on data we didn't even know we had. A complete transformation of our data culture.”",
   },
   {
     id: 5,
     profileImg: profileImg2,
     name: "David K.",
-    role: "Lead Designer, PixelForge",
-    desc: "“As a game studio, we are picky about performance. Prana Consultants delivered a Unity module that was optimized to perfection. Smooth, bug-free, and exactly what our architecture needed.”",
+    role: "Lead Architect, PixelForge",
+    desc: "“Integrating AI into our game logic seemed impossible until Prana Consultants stepped in. Their reinforcement learning agents have made our NPCs smarter and our gameplay infinitely more engaging.”",
   },
   {
     id: 6,
     profileImg: profileImg1,
     name: "Anita B.",
     role: "CEO, ChainTrust",
-    desc: "“Blockchain is complex, but working with them was simple. They guided us through the tokenization process with expertise and transparency. The smart contracts they wrote are secure and efficient.”",
+    desc: "“They helped us implement a decentralized identity system using blockchain privacy proofs. Their understanding of cryptographic security and smart contract logic is top-tier.”",
   },
   {
     id: 7,
     profileImg: profileImg2,
     name: "Michael T.",
-    role: "Head of Operations, LogiFlow",
-    desc: "“The Machine Learning model they developed for our supply chain prediction has reduced our stockouts by 40%. It’s amazing to see technology have such a direct impact on efficiency.”",
+    role: "COO, LogiFlow",
+    desc: "“The route optimization algorithms they developed saved us 40% on fuel costs in the first quarter. It’s amazing to see advanced mathematics translate so directly into operational savings.”",
   },
   {
     id: 8,
     profileImg: profileImg1,
     name: "Priya D.",
-    role: "IT Manager, SkyHigh Corp",
-    desc: "“Our migration to the cloud was seamless thanks to their DevOps team. They handled the legacy transfer without any downtime and set us up with a scalable architecture that grows with us.”",
+    role: "CTO, SkyHigh Corp",
+    desc: "“Our transition to an MLOps-driven workflow was seamless. They set up automated retraining pipelines that keep our models fresh without manual intervention. True engineering excellence.”",
   },
   {
     id: 9,
     profileImg: profileImg2,
     name: "Tom H.",
     role: "Director, Efficient Biz",
-    desc: "“RPA has been a revelation. We automated our invoicing process, and the error rate dropped to zero. Prana Consultants made the integration process smooth and painless.”",
+    desc: "“Their RPA bots didn't just automate clicks; they used OCR to read our invoices. We've automated 95% of our accounts payable process thanks to their intelligent automation solutions.”",
   },
   {
     id: 10,
     profileImg: profileImg1,
     name: "Jessica W.",
     role: "Founder, EduTech Pro",
-    desc: "“Their team built a learning platform that is intuitive and engaging. The feedback from our students has been overwhelmingly positive. They truly understand how to build for the end-user.”",
+    desc: "“The personalized learning algorithms they built allow our platform to adapt to each student's pace. It's the holy grail of education tech, and Prana Consultants made it a reality.”",
   },
 ];
 
@@ -436,78 +395,76 @@ export const reviews = [
 export const webPortfolio = [
   {
     id: 1,
-    img: require("./assets/images/web_projects/1.webp"),
-    title: "FE-Finance",
+    img: require("./assets/images/web-development/5ghomes.webp"),
+    title: "5g Homes",
+    link: "https://5ghighspeedinternet.co",
   },
   {
     id: 2,
-    img: require("./assets/images/web_projects/2.webp"),
-    title: "Ocxee",
+    img: require("./assets/images/web-development/cold-creekcap.webp"),
+    title: "Cold Creekcap",
+    link: "https://www.coldcreekcap.com",
   },
   {
     id: 3,
-    img: require("./assets/images/web_projects/3.webp"),
-    title: "Leaderbridge",
+    img: require("./assets/images/web-development/think-reality.webp"),
+    title: "Think Reality",
+    link: "https://thinkrealty.ae",
   },
   {
     id: 4,
-    img: require("./assets/images/web_projects/4.webp"),
-    title: "Gigzio",
+    img: require("./assets/images/web-development/akash-mega-mart.webp"),
+    title: "Akash Mega Mart",
+    link: "https://akashmegamart.com/",
   },
   {
     id: 5,
-    img: require("./assets/images/web_projects/5.webp"),
-    title: "FE Group",
-  },
-  {
-    id: 6,
-    img: require("./assets/images/web_projects/6.webp"),
-    title: "V Talkz",
+    img: require("./assets/images/web-development/midwam.webp"),
+    title: "Midwam – Immersive Experience Design Company",
+    link: "https://www.midwam.com/en/about",
   },
 ];
 
 export const webPortfolioHomepage = [
   {
     id: 1,
-    img: require("./assets/images/web_projects/1.webp"),
-    title: "FE-Finance",
+    img: require("./assets/images/web-development/5ghomes.webp"),
+    title: "5g Homes",
     description:
-      "A robust fintech ecosystem simplifying asset management and investment tracking for modern investors.",
+      "A lightning-fast connectivity platform designed to revolutionize home internet access with next-gen 5G infrastructure.",
+    link: "https://5ghighspeedinternet.co",
   },
   {
     id: 2,
-    img: require("./assets/images/web_projects/2.webp"),
-    title: "Ocxee",
+    img: require("./assets/images/web-development/cold-creekcap.webp"),
+    title: "Cold Creekcap",
     description:
-      "A global mobility platform providing seamless accommodation and relocation services for international students.",
+      "A sophisticated financial investment portal offering tailored capital solutions and real-time market insights for discerning investors.",
+    link: "https://www.coldcreekcap.com",
   },
   {
     id: 3,
-    img: require("./assets/images/web_projects/3.webp"),
-    title: "Leaderbridge",
+    img: require("./assets/images/web-development/think-reality.webp"),
+    title: "Think Reality",
     description:
-      "An exclusive professional network designed to foster peer-to-peer collaboration among industry executives.",
+      "An immersive real estate showcase platform leveraging digital innovation to transform how properties are viewed and experienced globally.",
+    link: "https://thinkrealty.ae",
   },
   {
     id: 4,
-    img: require("./assets/images/web_projects/4.webp"),
-    title: "Gigzio",
+    img: require("./assets/images/web-development/akash-mega-mart.webp"),
+    title: "Akash Mega Mart",
     description:
-      "A dynamic talent marketplace bridging the gap between freelance experts and enterprises needing specialized skills.",
+      "A comprehensive E-commerce ecosystem providing a seamless shopping experience with robust inventory management and user-centric design.",
+    link: "https://akashmegamart.com/",
   },
   {
     id: 5,
-    img: require("./assets/images/web_projects/5.webp"),
-    title: "FE Group",
+    img: require("./assets/images/web-development/midwam.webp"),
+    title: "Midwam",
     description:
-      "A comprehensive corporate financial portal designed to optimize business capital and strategic growth.",
-  },
-  {
-    id: 6,
-    img: require("./assets/images/web_projects/6.webp"),
-    title: "V Talkz",
-    description:
-      "Next-generation communication infrastructure enabling real-time collaboration and secure team messaging.",
+      "An award-winning immersive experience design interface that blends physical and digital worlds to create captivating interactive environments.",
+    link: "https://www.midwam.com/en/about",
   },
 ];
 
@@ -515,102 +472,112 @@ export const webPortfolioHomepage = [
 export const appPortfolio = [
   {
     id: 1,
-    img: require("./assets/images/app_projects/1.webp"),
-    title: "PartEx",
+    img: require("./assets/images/app-development/akash_mega_mart-app.webp"),
+    title: "Akash Mega Mart Mobile App",
+    link: "https://play.google.com/store/apps/details?id=com.app.akash_mega_mart",
   },
   {
     id: 2,
-    img: require("./assets/images/app_projects/2.webp"),
-    title: "Find A Driver",
+    img: require("./assets/images/app-development/feelit_app.webp"),
+    title: "FeelIt Mobile App",
+    link: "https://play.google.com/store/apps/details?id=com.feelit.feelit_app",
   },
   {
     id: 3,
-    img: require("./assets/images/app_projects/3.webp"),
-    title: "Glowsy",
+    img: require("./assets/images/app-development/klikomics.webp"),
+    title: "Klikomics Mobile App",
+    link: "https://play.google.com/store/apps/details?id=com.klikomics.android&pcampaignid=web_share",
   },
   {
     id: 4,
-    img: require("./assets/images/app_projects/4.webp"),
-    title: "Artisan Express",
+    img: require("./assets/images/app-development/autosnap-app.webp"),
+    title: "AutoSnap Mobile App",
+    link: "https://play.google.com/store/apps/details?id=com.Zigna.AutoSnap&pcampaignid=web_share",
   },
   {
     id: 5,
-    img: require("./assets/images/app_projects/5.webp"),
-    title: "House of Deliverance",
+    img: require("./assets/images/app-development/rentop.webp"),
+    title: "Rentop Bike and Car",
+    link: "https://play.google.com/store/apps/details?id=com.rentop&pcampaignid=web_share",
   },
 ];
 
 export const appPortfolioHomepage = [
   {
     id: 1,
-    img: require("./assets/images/app_projects/1.webp"),
-    title: "PartEx",
+    img: require("./assets/images/app-development/akash_mega_mart-app.webp"),
+    title: "Akash Mega Mart Mobile App",
     description:
-      "A streamlined marketplace for automotive parts, facilitating rapid exchanges and inventory management.",
+      "A feature-rich mobile commerce application delivering rapid grocery delivery and a personalized shopping experience right to your fingertips.",
+    link: "https://play.google.com/store/apps/details?id=com.app.akash_mega_mart",
   },
   {
     id: 2,
-    img: require("./assets/images/app_projects/2.webp"),
-    title: "Find A Driver",
+    img: require("./assets/images/app-development/feelit_app.webp"),
+    title: "FeelIt Mobile App",
     description:
-      "On-demand transportation logistics app, connecting users with verified chauffeurs for reliable travel.",
+      "An emotional intelligence platform fostering connection and mental wellness through intuitive mood tracking and community support.",
+    link: "https://play.google.com/store/apps/details?id=com.feelit.feelit_app",
   },
   {
     id: 3,
-    img: require("./assets/images/app_projects/3.webp"),
-    title: "Glowsy",
+    img: require("./assets/images/app-development/klikomics.webp"),
+    title: "Klikomics Mobile App",
     description:
-      "Personalized beauty commerce app utilizing AI to recommend products based on user skin profiles.",
+      "A next-gen digital comics reader offering an immersive storytelling experience with interactive panels and a vast library of graphic novels.",
+    link: "https://play.google.com/store/apps/details?id=com.klikomics.android&pcampaignid=web_share",
   },
   {
     id: 4,
-    img: require("./assets/images/app_projects/4.webp"),
-    title: "Artisan Express",
+    img: require("./assets/images/app-development/autosnap-app.webp"),
+    title: "AutoSnap Mobile App",
     description:
-      "Service aggregation platform connecting homeowners with vetted local professionals for maintenance tasks.",
+      "A cutting-edge automotive utility app streamlining vehicle diagnostics and service execution for mechanics and car owners alike.",
+    link: "https://play.google.com/store/apps/details?id=com.Zigna.AutoSnap&pcampaignid=web_share",
   },
   {
     id: 5,
-    img: require("./assets/images/app_projects/5.webp"),
-    title: "House of Deliverance",
+    img: require("./assets/images/app-development/rentop.webp"),
+    title: "Rentop Bike and Car",
     description:
-      "A digital sanctuary application providing curated spiritual content and community engagement features.",
+      "A seamless vehicle rental marketplace connecting travelers with trusted local hosts for reliable bike and car rentals.",
+    link: "https://play.google.com/store/apps/details?id=com.rentop&pcampaignid=web_share",
   },
 ];
 
 export const aboutUsItems = [
   {
-    title: "Innovation First",
+    title: "AI-First DNA",
     description:
-      "Innovation isn't just a buzzword for us; it's our operating system. We consistently explore the bleeding edge of tech to bring you solutions that are years ahead of the market.",
+      "Artificial Intelligence isn't an add-on; it's our core operating system. We consistently explore the bleeding edge of machine learning to bring you solutions that are years ahead of the market.",
     image: aboutone,
     gradient: "from-primary/60 to-primary/80",
   },
   {
-    title: "Client-Centric DNA",
+    title: "Client-Centric Intelligence",
     description:
-      "Your success is our metric. We don't just deliver code; we build partnerships. We immerse ourselves in your business goals to ensure our digital solutions drive real-world value.",
+      "Your data, your success. We don't just train models; we build partnerships. We immerse ourselves in your strategic goals to ensure our AI solutions drive real-world business value.",
     image: abouttwo,
     gradient: "from-secondary/60 to-secondary/80",
   },
   {
-    title: "Standard of Excellence",
+    title: "Algorithmic Excellence",
     description:
-      "We believe that 'good enough' is failure. Our commitment to quality is absolute, ensuring that every line of code and every pixel is crafted with precision and purpose.",
+      "We believe that 'good enough' is failure. Our commitment to mathematical precision is absolute, ensuring that every model we deploy is validated, robust, and optimized for performance.",
     image: aboutthree,
     gradient: "from-primary/60 to-primary/80",
   },
   {
-    title: "Purpose-Driven Tech",
+    title: "Ethical & Responsible AI",
     description:
-      "Technology is a tool for empowerment. Our mission is to build digital products that solve genuine problems, streamline complex operations, and enhance the human experience.",
+      "Technology must be a force for good. We design transparent, fair systems that eliminate bias and respect user privacy, ensuring your AI initiatives are sustainable and compliant.",
     image: aboutfour,
     gradient: "from-secondary/60 to-secondary/80",
   },
   {
-    title: "Holistic Solutions",
+    title: "End-to-End MLOps",
     description:
-      "We offer the complete package. From the first whiteboard sketch to the final deployment and ongoing maintenance, we support your digital journey at every single step.",
+      "We offer the complete lifecycle. From raw data ingestion to model deployment and continuous monitoring, we manage your entire AI pipeline so you can focus on innovation.",
     image: aboutfive,
     gradient: "from-primary/60 to-primary/80",
   },

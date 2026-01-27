@@ -54,7 +54,7 @@ export const LandingPage = ({ page }) => {
     var payload = {
       to: companyDetails.email,
       // to: "remeesreme4u@gmail.com",
-      subject: "You have a new message from Prana Consultants",
+      subject: "You have a new message from PRANA CONSULTANTS",
       body: emailBody,
     };
 
@@ -319,7 +319,7 @@ export const LandingPage = ({ page }) => {
               <h2 className="heading-2">Initiate Your Transformation</h2>
               <p className="desc">
                 Connect with{" "}
-                <span className="font-semibold">Prana Consultants </span>
+                <span className="font-semibold">PRANA CONSULTANTS </span>
                 to unlock your digital potential. Together, we will engineer solutions that align with your strategic vision, elevating your business to unprecedented heights.
               </p>
               <img

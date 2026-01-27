@@ -54,7 +54,7 @@ const LandingHeader = () => {
 
   return (
     <div
-      className={`pt-6 pb-8 fixed top-0 w-full   z-50  ${isScrolled
+      className={`pt-2 pb-2 fixed top-0 w-full   z-50  ${isScrolled
           ? "bg-black/10 bg-opacity-60 backdrop-blur-md text-white"
           : "bg-transparent text-white"
         }`}
@@ -64,7 +64,7 @@ const LandingHeader = () => {
           <Link smooth={true} to="banner" className="cursor-pointer">
             <img
               src={logoImg}
-              className={`${!isScrolled ? "invert" : ""} h-[2rem] md:h-[2.75rem] ml-5 scale-125`}
+              className={`${!isScrolled ? "invert" : ""} h-[3.5rem] md:h-[4.5rem] ml-0 transition-all duration-300`}
               alt="logo"
             />
           </Link>

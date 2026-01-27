@@ -34,7 +34,7 @@ const ContactUs = () => {
     var payload = {
       to: companyDetails.email,
       // to: "remeesreme4u@gmail.com",
-      subject: "You have a new message from Prana Consultants",
+      subject: "You have a new message from PRANA CONSULTANTS",
       body: emailBody,
     };
 
@@ -68,7 +68,7 @@ const ContactUs = () => {
             <div className="gradient-rounded-text-box w-fit">Connect With Us</div>
             <h2 className="text-4xl md:text-5xl font-bold font-raleway text-gray-900 leading-tight">Initiate Dialogue</h2>
             <p className="text-lg text-gray-600 font-inter leading-relaxed">
-              Let Prana Consultants serve as the catalyst for your digital evolution.
+              Let PRANA CONSULTANTS serve as the catalyst for your digital evolution.
               Together, we will engineer solutions as dynamic and forward-thinking as your vision.
             </p>
           </div>

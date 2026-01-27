@@ -32,8 +32,8 @@ const WebsiteHeader = () => {
 
   return (
     <div
-      className={`pt-6 pb-6 fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled
-          ? "bg-black/40 backdrop-blur-xl shadow-lg pb-4 pt-4"
+      className={`pt-2 pb-2 fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled
+          ? "bg-black/40 backdrop-blur-xl shadow-lg"
           : "bg-transparent"
         }`}
     >
@@ -42,7 +42,7 @@ const WebsiteHeader = () => {
           <Link to="/">
             <img
               src={logoImg}
-              className={`${!isScrolled ? "invert opacity-90" : "invert-0"} h-[2rem] md:h-[2.5rem] ml-0 transition-all duration-300`}
+              className={`${!isScrolled ? "invert opacity-90" : "invert-0"} h-[3.5rem] md:h-[4.5rem] ml-0 transition-all duration-300`}
               alt="logo"
             />
           </Link>

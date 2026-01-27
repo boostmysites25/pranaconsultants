@@ -11,7 +11,7 @@ import UnlockEfficiency from "../../componets/common/UnlockEfficiency";
 import Testimonials from "../../componets/common/Testimonials";
 import Faqs from "../../componets/common/Faqs";
 import Credibility from "../../componets/common/Credibility";
-import CommonProject from "../../componets/website/CommonProject";
+// import CommonProject from "../../componets/website/CommonProject";
 import HowWeBuild from "../../componets/common/HowWeBuild";
 
 const Home = () => {
@@ -43,7 +43,7 @@ const Home = () => {
               <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Intelligent Digital Evolution</span>
             </h1>
             <p className="font-inter text-lg text-gray-100 leading-relaxed max-w-2xl">
-              Prana Consultants engineers cutting-edge, AI-driven IT ecosystems tailored to the complex needs of modern enterprises.
+              PRANA CONSULTANTS engineers cutting-edge, AI-driven IT ecosystems tailored to the complex needs of modern enterprises.
               We drive efficiency, sustainable growth, and continuous innovation.
             </p>
             <div className="flex gap-4 mt-4">
@@ -67,7 +67,7 @@ const Home = () => {
               Redefining Operations with Sophisticated AI Architectures
             </h2>
             <p className="font-inter text-gray-600 text-lg leading-relaxed">
-              Welcome to Prana Consultants—where technology converges with strategy to propel your success.
+              Welcome to PRANA CONSULTANTS—where technology converges with strategy to propel your success.
               We specialize in architecting powerful digital experiences and delivering solutions that decode complexity.
               From bespoke mobile and web engineering to advanced AI and data intelligence, we empower you to unlock new potential and dominate the digital landscape.
             </p>
@@ -92,14 +92,14 @@ const Home = () => {
             Resilient AI-Infused IT Infrastructure for Strategic Growth
           </h2>
           <p className="font-inter text-gray-600 text-lg leading-relaxed max-w-3xl">
-            At Prana Consultants, we recognize that your digital presence is the bedrock of your brand.
+            At PRANA CONSULTANTS, we recognize that your digital presence is the bedrock of your brand.
             Our development capabilities transcend the ordinary, integrating AI optimization for peak performance
             and actionable data insights to accelerate business velocity.
           </p>
         </div>
       </section>
 
-      <CommonProject />
+      {/* <CommonProject /> */}
       <WhyChooseUs />
       <HowWeBuild />
       <UnlockEfficiency />
