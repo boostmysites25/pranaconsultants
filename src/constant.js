@@ -108,10 +108,11 @@ export {
 // company details
 export const companyDetails = {
   phone: "+91-9834082924",
+  phone1: "+91-9373596475",
   whatsapp: "919834082924",
   whatsappbox: "919834082924",
   email: "pc.pranaconsultants@gmail.com",
-  address: "SHOP NO. BG-1, SUPREME PARK B, BEHIND POWER HOUSE, AQUEM-MARGAO",
+  address: "SHOP NO. BG-1, SUPREME PARK B, BEHIND POWER HOUSE, AQUEM-MARGAO, GOA",
 };
 
 // website routes

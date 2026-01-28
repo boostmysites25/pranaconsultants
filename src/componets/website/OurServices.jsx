@@ -109,7 +109,7 @@ const OurServices = ({ length }) => {
           Next-Generation Intelligence, Engineered for Reliability
         </h2>
         <p data-aos="fade-up" className="desc max-w-[50rem]">
-          PRANA CONSULTANTS harnesses the transformative potential of artificial intelligence
+        <b>PRANA CONSULTANTS</b> harnesses the transformative potential of artificial intelligence
           to build robust technology ecosystems. We align our AI-driven insights with your
           strategic goals, enabling data-informed decision making and sustainable operational growth.
         </p>

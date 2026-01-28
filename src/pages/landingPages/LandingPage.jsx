@@ -319,7 +319,7 @@ export const LandingPage = ({ page }) => {
               <h2 className="heading-2">Initiate Your Transformation</h2>
               <p className="desc">
                 Connect with{" "}
-                <span className="font-semibold">PRANA CONSULTANTS </span>
+                <span className="font-bold">PRANA CONSULTANTS </span>
                 to unlock your digital potential. Together, we will engineer solutions that align with your strategic vision, elevating your business to unprecedented heights.
               </p>
               <img

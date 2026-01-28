@@ -9,7 +9,7 @@ const WebsiteFooter = () => {
       <div className="wrapper text-white">
         <div className="flex md:flex-row flex-col justify-between gap-12 lg:gap-24">
           <div className="flex flex-col items-start gap-6 max-w-sm">
-            <img src={logoImg} className="h-[3.5rem] invert opacity-90" alt="" />
+            <img src={logoImg} className="h-[8rem] invert opacity-90" alt="" />
             <p className="desc !text-gray-200 !text-sm leading-relaxed text-start">
               We have established ourselves as the premier partner for organizations
               seeking digital transformation and enhanced operational efficiency.
@@ -38,6 +38,12 @@ const WebsiteFooter = () => {
                   className="text-gray-300 text-sm hover:text-primary transition-colors"
                 >
                   {companyDetails.phone}
+                </Link>
+                <Link
+                  to={`tel:${companyDetails.phone1}`}
+                  className="text-gray-300 text-sm hover:text-primary transition-colors"
+                >
+                  {companyDetails.phone1}
                 </Link>
               </div>
               <div className="flex flex-col gap-1">

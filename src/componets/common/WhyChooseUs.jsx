@@ -76,7 +76,7 @@ const WhyChooseUs = () => {
             data-aos="fade-up"
             className="desc max-w-[40rem] mx-auto"
           >
-            PRANA CONSULTANTS is committed to architecting AI-enhanced ecosystems
+            <b>PRANA CONSULTANTS</b> is committed to architecting AI-enhanced ecosystems
             that are precision-calibrated to your operational matrix. We merge
             technical rigor with creative strategy to manifest a digital reality
             that propels your business into a new tier of performance.

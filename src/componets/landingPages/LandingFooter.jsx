@@ -10,7 +10,7 @@ const LandingFooter = () => {
       <div className="wrapper text-white">
         <div className="flex md:flex-row flex-col justify-between gap-10">
           <div className="flex flex-col items-center">
-            <img src={logoImg} className="h-[4rem] invert" alt="" />
+            <img src={logoImg} className="h-[8rem] invert" alt="" />
             <p className="desc !text-gray-200 !text-sm leading-relaxed text-start">
               We have established ourselves as the premier partner for organizations
               seeking digital transformation and enhanced operational efficiency.
@@ -70,6 +70,12 @@ const LandingFooter = () => {
                   className="text-white desc text-sm"
                 >
                   {companyDetails.phone}
+                </Link>
+                <Link
+                  to={`tel:${companyDetails.phone1}`}
+                  className="text-white desc text-sm"
+                >
+                  {companyDetails.phone1}
                 </Link>
               </div>
               <div className="flex flex-col">

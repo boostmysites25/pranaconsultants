@@ -68,7 +68,7 @@ const ContactUs = () => {
             <div className="gradient-rounded-text-box w-fit">Connect With Us</div>
             <h2 className="text-4xl md:text-5xl font-bold font-raleway text-gray-900 leading-tight">Initiate Dialogue</h2>
             <p className="text-lg text-gray-600 font-inter leading-relaxed">
-              Let PRANA CONSULTANTS serve as the catalyst for your digital evolution.
+              Let <b>PRANA CONSULTANTS</b> serve as the catalyst for your digital evolution.
               Together, we will engineer solutions as dynamic and forward-thinking as your vision.
             </p>
           </div>
@@ -84,6 +84,18 @@ const ContactUs = () => {
               <div className="flex flex-col">
                 <p className="font-semibold text-gray-900 text-lg">Call Us</p>
                 <p className="text-gray-600">{companyDetails.phone}</p>
+              </div>
+            </Link>
+            <Link
+              to={`tel:${companyDetails.phone1}`}
+              className="flex items-center gap-5 p-4 rounded-2xl hover:bg-gray-50 transition-all duration-300 group"
+            >
+              <div className="w-14 h-14 rounded-full bg-primary/10 flex justify-center items-center group-hover:bg-primary transition-colors duration-300">
+                <FaPhone className="text-2xl text-primary group-hover:text-white transition-colors duration-300 scale-x-[-1]" />
+              </div>
+              <div className="flex flex-col">
+                <p className="font-semibold text-gray-900 text-lg">Call Us</p>
+                <p className="text-gray-600">{companyDetails.phone1}</p>
               </div>
             </Link>
             <Link

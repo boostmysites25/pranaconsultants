@@ -62,7 +62,7 @@ const AboutUs = () => {
                 Pioneering Innovation through Intelligent Technologies
               </h1>
               <p className="text-lg leading-relaxed text-gray-600 font-inter">
-                PRANA CONSULTANTS specializes in engineering transformative IT solutions powered by sophisticated artificial intelligence.
+              <b>PRANA CONSULTANTS</b> specializes in engineering transformative IT solutions powered by sophisticated artificial intelligence.
                 Our expertise lies in decoding complex challenges and delivering tailored, AI-centric services that ensure businesses thrive in a technology-first era.
                 With a dedicated team of elite developers, data scientists, and strategists, we are redefining the trajectory of IT and unlocking the true potential of intelligent systems.
               </p>

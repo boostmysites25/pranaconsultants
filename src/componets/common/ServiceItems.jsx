@@ -26,7 +26,7 @@ const ServiceItems = () => {
           Architecting the Future with Intelligence
         </h2>
         <p data-aos="fade-up" className="desc max-w-[50rem]">
-          PRANA CONSULTANTS stands at the intersection of creativity and technology. We don't just advocate for AI; we engineer it into the very fabric of your business operations, ensuring you stay ahead in a rapidly evolving digital landscape.
+          <b>PRANA CONSULTANTS</b> stands at the intersection of creativity and technology. We don't just advocate for AI; we engineer it into the very fabric of your business operations, ensuring you stay ahead in a rapidly evolving digital landscape.
         </p>
 
         <div
