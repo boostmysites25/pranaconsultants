@@ -64,7 +64,7 @@ const LandingHeader = () => {
           <Link smooth={true} to="banner" className="cursor-pointer">
             <img
               src={logoImg}
-              className={`${!isScrolled ? "invert" : ""} h-[3.5rem] md:h-[4.5rem] ml-0 transition-all duration-300`}
+              className={`${!isScrolled ? "invert" : ""} h-[3.5rem] md:h-[8rem] ml-0 transition-all duration-300`}
               alt="logo"
             />
           </Link>
